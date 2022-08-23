@@ -11,7 +11,7 @@
        "name": "No gatherings over 100 people",
        "event_type": "mandate",
        "area_affected": "federal",
-       "r0_difference": -.56,
+       "r0_difference": -0.56,
        "unemployment_rate_difference": 0.60
     }
   ]

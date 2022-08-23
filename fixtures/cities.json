@@ -1,12 +1,12 @@
 [
     {
-      "name": "Houston"
-      "population": 2313000
+      "name": "Houston",
+      "population": 2313000,
       "r0": 1.5
     },
     {
-      "name": "San Diego"
-      "population": 1415000
+      "name": "San Diego",
+      "population": 1415000,
       "r0": 2
     }
   ]
