@@ -16,6 +16,9 @@ class City:
     def calculate_open_hires(self):
         self.open_hires = round(((self.unemployment_rate / 100) * self.population),2)
 
+    def start_infection_rate(self):
+        self.infected_population = (random.randint(10,80)/100)
+
     def __repr__(self):
         return '\n Name: {} \n Population: {} \n Infected Population: {} \n r0: {} \
                   \n Unemployment rate: {} \n Open hires: {} \n'.format( self.name,
