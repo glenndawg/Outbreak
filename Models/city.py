@@ -24,6 +24,9 @@ class City:
                                                                 round(self.r0,2),
                                                                 round(self.unemployment_rate,2),
                                                                 self.open_hires)
+    def __iter__(self):
+        return iter([self.name, self.population, self.infected_population, self.r0,
+                        self.unemployment_rate, self.open_hires])
 
 def load_cities(file_path: str, usa_cities: list[City]):
     with open(file_path, 'r') as f:
@@ -32,5 +35,5 @@ def load_cities(file_path: str, usa_cities: list[City]):
             usa_cities.append(City( name=city['name'],
                                     population=city['population'],
                                     r0=city['r0']))
-
+            
         
