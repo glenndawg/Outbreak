@@ -2,23 +2,23 @@ import random
 import json
 class City:
 
-    def __init__(self, name: str, population: str, infected_population = 0.0, r0 = 0.0, unemployment_rate = 0.0, open_hires = 0.0 ):
+    def __init__(self, name: str, population: str, infected_population = 0.0, r0 = 0.0, unemployment_rate = 0.0, open_hires = 0):
         self.name = name
         self.population = population
         self.infected_population = infected_population
-        self.r0 = round(r0,2)
-        self.unemployment_rate = round(unemployment_rate,2)
+        self.r0 = r0
+        self.unemployment_rate = unemployment_rate
         self.open_hires = open_hires
         
-    def start_unemployment_rate(self, unemployment_rate: float):
+    def start_unemployment_rate(self):
         self.unemployment_rate = random.randint(7,12)
-
-    def openhires(self, open_hires = 0):
-        self.open_hires = int(round((self.unemp_rate / 100) * self.population))
+#  unemployment_rate: float, open_hires: float
+    def calculate_open_hires(self):
+        self.open_hires = round(((self.unemployment_rate / 100) * self.population),2)
 
     def __repr__(self):
-        return 'Name: {} \n Population: {} \n Infected Population: {} \n r0: {} \
-                  \n Unemployment rate: {} \n Open hires: {}'.format( self.name,
+        return '\n Name: {} \n Population: {} \n Infected Population: {} \n r0: {} \
+                  \n Unemployment rate: {} \n Open hires: {} \n'.format( self.name,
                                                                 self.population,
                                                                 self.infected_population,
                                                                 round(self.r0,2),

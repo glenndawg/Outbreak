@@ -1,17 +1,194 @@
 [
-    {
-       "name": "Riots with mask burning",
-       "event_type": "public_unrest",
-       "area_affected": "local",
-       "r0_difference": 1,
-       "unemployment_rate_difference": 0.44,
-       "affected_cities": ["Houston"]
-    },
-    {
-       "name": "No gatherings over 100 people",
-       "event_type": "mandate",
-       "area_affected": "federal",
-       "r0_difference": -0.56,
-       "unemployment_rate_difference": 0.60
-    }
-  ]
+   {
+      "name": "Riots with mask burning",
+      "event_type": "public_unrest",
+      "area_affected": "local",
+      "r0_difference": 1,
+      "unemployment_rate_difference": 0.44,
+      "affected_cities": ["Houston"]
+   },
+   {
+      "name": "No gatherings over 100 people",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": -0.56,
+      "unemployment_rate_difference": 0.60,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "Omicron",
+      "event_type": "mutation",
+      "area_affected": "federal",
+      "r0_difference": 1.3,
+      "unemployment_rate_difference": 0.49,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "mask mandate",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": -1.45,
+      "unemployment_rate_difference": 0.18,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "mask lift",
+      "event_type": "mandate",
+      "area_affected": "local",
+      "r0_difference": 1,
+      "unemployment_rate_difference": -1.53,
+      "affected_cities": ["Houston", "Austin", "Jacksonville", "Fort Worth", "Philadelphia"]
+   },
+   {
+      "name": "Alpha",
+      "event_type": "mutation",
+      "area_affected": "federal",
+      "r0_difference": 0.43,
+      "unemployment_rate_difference": -0.21,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "looting",
+      "event_type": "public_unrest",
+      "area_affected": "local",
+      "r0_difference": 0.24,
+      "unemployment_rate_difference": 0.32,
+      "affected_cities": ["New york", "Chicago", "Los Angeles", "Seattle", "Dallas"]
+   },
+   {
+      "name": "Beta",
+      "event_type": "mutation",
+      "area_affected": "federal",
+      "r0_difference": 0.65,
+      "unemployment_rate_difference": 0.12,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "mask mandate round 2",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": -2.25,
+      "unemployment_rate_difference": 0,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "mask lift round 2 ",
+      "event_type": "mandate",
+      "area_affected": "local",
+      "r0_difference": 1.45,
+      "unemployment_rate_difference": -4.6,
+      "affected_cities": ["Houston", "Austin", "Jacksonville", "Fort Worth", "Philadelphia", "Phoenix", "Denver", "Columbus"]
+   },
+   {
+      "name": "trucker rally",
+      "event_type": "public_unrest",
+      "area_affected": "local",
+      "r0_difference": -1.5,
+      "unemployment_rate_difference": 0.69, 
+      "affected_cities": ["Houston", "Austin", "Fort Worth", "Los Angeles"]
+   },
+   {
+      "name": "Lock down",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": -2.31,
+      "unemployment_rate_difference": 2.45,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "Lock down lifted",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": 0.68,
+      "unemployment_rate_difference": -4.61,
+      "affected_cities": ["federal"]
+   },   
+   {
+      "name": "Delta",
+      "event_type": "mutation",
+      "area_affected": "federal",
+      "r0_difference": 0.73,
+      "unemployment_rate_difference": 2.64,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "essential workers",
+      "event_type": "mandate",
+      "area_affected": "local",
+      "r0_difference": -0.95,
+      "unemployment_rate_difference": 0.48,
+      "affected_cities": ["Houston", "Austin", "Jacksonville", "Fort Worth", "Philadelphia", "Phoenix", "Denver", "Columbus"]
+   },
+   {
+      "name": "Gamma",
+      "event_type": "federal",
+      "area_affected": "federal",
+      "r0_difference": 0.84,
+      "unemployment_rate_difference": -0.71,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "BLM protests 1",
+      "event_type": "public_unrest",
+      "area_affected": "local",
+      "r0_difference": 0.59,
+      "unemployment_rate_difference": 0.31,
+      "affected_cities": ["Seattle", "Los Angeles", "New york", "Jacksonville", "Fort Worth"]
+   },
+   {
+      "name": "mask protests",
+      "event_type": "public_unrest",
+      "area_affected": "federal",
+      "r0_difference": 0.42,
+      "unemployment_rate_difference": 0,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "Iota",
+      "event_type": "mutation",
+      "area_affected": "federal",
+      "r0_difference": 3.2,
+      "unemployment_rate_difference": 0,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "back to school",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": 0.27,
+      "unemployment_rate_difference": -3.14,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "Kappa",
+      "event_type": "mutation",
+      "area_affected": "federal",
+      "r0_difference": 0.5,
+      "unemployment_rate_difference": 0,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "Lock down",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": -2.76,
+      "unemployment_rate_difference": -0.89,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "Zeta",
+      "event_type": "mutation",
+      "area_affected": "federal",
+      "r0_difference": 1.6,
+      "unemployment_rate_difference": 0,
+      "affected_cities": ["federal"]
+   },
+   {
+      "name": "Lock down plus recession ",
+      "event_type": "mandate",
+      "area_affected": "federal",
+      "r0_difference": -4.76,
+      "unemployment_rate_difference": 6.89,
+      "affected_cities": ["federal"]
+   }
+]
