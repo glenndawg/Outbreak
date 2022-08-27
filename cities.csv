@@ -1,910 +1,405 @@
-0w1w2w3w4w5w6w7w8w9w10w11w12w13w14w15w16w17w18w19
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
-"Name: Houston 
- Population: 2313000 
- Infected Population: 0.0 
- r0: -2.52                   
- Unemployment rate: 15.79 
- Open hires: 365222.7"w"Name: San Diego 
- Population: 1415000 
- Infected Population: 0.0 
- r0: -2.02                   
- Unemployment rate: 19.79 
- Open hires: 280028.5"w"Name: New york 
- Population: 8804190 
- Infected Population: 0.0 
- r0: -2.43                   
- Unemployment rate: 17.79 
- Open hires: 1566265.4"w"Name: Los Angeles 
- Population: 3898747 
- Infected Population: 0.0 
- r0: -3.22                   
- Unemployment rate: 15.79 
- Open hires: 615612.15"w"Name: Chicago 
- Population: 2746388 
- Infected Population: 0.0 
- r0: -2.84                   
- Unemployment rate: 14.79 
- Open hires: 406190.79"w"Name: Phoenix 
- Population: 1608139 
- Infected Population: 0.0 
- r0: -3.06                   
- Unemployment rate: 16.79 
- Open hires: 270006.54"w"Name: Philadelphia 
- Population: 1603797 
- Infected Population: 0.0 
- r0: -4.6                   
- Unemployment rate: 19.48 
- Open hires: 312419.66"w"Name: San Antonio 
- Population: 1434625 
- Infected Population: 0.0 
- r0: -3.1                   
- Unemployment rate: 15.79 
- Open hires: 226527.29"w"Name: Dallas 
- Population: 1304379 
- Infected Population: 0.0 
- r0: -4.55                   
- Unemployment rate: 20.48 
- Open hires: 267136.82"w"Name: San Jose 
- Population: 1013240 
- Infected Population: 0.0 
- r0: -3.09                   
- Unemployment rate: 14.79 
- Open hires: 149858.2"w"Name: Austin 
- Population: 949611 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 168935.8"w"Name: Jacksonville 
- Population: 949611 
- Infected Population: 0.0 
- r0: -2.78                   
- Unemployment rate: 15.79 
- Open hires: 149943.58"w"Name: Fort Worth 
- Population: 918915 
- Infected Population: 0.0 
- r0: -3.13                   
- Unemployment rate: 17.79 
- Open hires: 163474.98"w"Name: Columbus 
- Population: 905748 
- Infected Population: 0.0 
- r0: -2.99                   
- Unemployment rate: 16.79 
- Open hires: 152075.09"w"Name: San Francisco 
- Population: 883305 
- Infected Population: 0.0 
- r0: -3.11                   
- Unemployment rate: 16.79 
- Open hires: 148306.91"w"Name: Charlotte 
- Population: 874579 
- Infected Population: 0.0 
- r0: -3.05                   
- Unemployment rate: 14.79 
- Open hires: 129350.23"w"Name: Indianapolis 
- Population: 867125 
- Infected Population: 0.0 
- r0: -3.08                   
- Unemployment rate: 17.79 
- Open hires: 154261.54"w"Name: Seattle 
- Population: 737015 
- Infected Population: 0.0 
- r0: -1.66                   
- Unemployment rate: 15.19 
- Open hires: 111952.58"w"Name: Denver 
- Population: 715522 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 105825.7"w"Name: Portland 
- Population: 652503 
- Infected Population: 0.0 
- r0: -3.14                   
- Unemployment rate: 14.79 
- Open hires: 96505.19"
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Dallas,1304379,234788,9.52,17.79,232049,1878
+Seattle,737015,420099,9.52,17.79,131115,3361
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522
+Houston,2313000,786420,15.780000000000005,16.01,370311,6291
+San Diego,1415000,325450,10.280000000000001,19.469999999999995,275500,2604
+New york,8804190,880419,10.52,18.789999999999996,1654307,7043
+Los Angeles,3898747,1364561,11.020000000000003,20.479999999999997,798463,10916
+Chicago,2746388,1263338,9.52,21.789999999999996,598438,10107
+Phoenix,1608139,1190023,9.280000000000001,22.469999999999995,361349,9520
+Philadelphia,1603797,160380,12.280000000000001,17.879999999999995,286759,1283
+San Antonio,1434625,1075969,9.280000000000001,17.47,250629,8608
+Dallas,1304379,234788,9.52,17.79,232049,1878
+San Jose,1013240,526885,9.280000000000001,17.47,177013,4215
+Austin,949611,674224,13.780000000000005,18.569999999999997,176343,5394
+Jacksonville,949611,351356,12.280000000000001,16.88,160294,2811
+Fort Worth,918915,404323,13.780000000000005,17.569999999999997,161453,3235
+Columbus,905748,697426,9.280000000000001,19.469999999999995,176349,5579
+San Francisco,883305,485818,9.280000000000001,19.469999999999995,171979,3887
+Charlotte,874579,104949,9.280000000000001,19.469999999999995,170281,840
+Indianapolis,867125,182096,9.280000000000001,20.469999999999995,177500,1457
+Seattle,737015,420099,9.52,17.79,131115,3361
+Denver,715522,293364,9.280000000000001,19.469999999999995,139312,2347
+Portland,652503,65250,9.280000000000001,21.469999999999995,140092,522

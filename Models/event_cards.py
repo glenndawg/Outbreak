@@ -13,7 +13,11 @@ class EventCard:
     def apply_to_affected_citie(self, City):
         City.r0 += self.r0_difference
         City.unemployment_rate += self.unemployment_rate_difference
+        City.start_infection_rate()
         return City
+
+    def apply_mortality_rate(self, City):
+        City.deaths = round(0.008 * City.infected_population)
         
     def __repr__(self):
         return 'Name: {} \n Event type: {} \n Area affected: {} \n r0 difference: {} \
