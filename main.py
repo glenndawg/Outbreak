@@ -11,7 +11,7 @@ import csv
 CITIES_JSON_FIXTURES_FILE_PATH = './fixtures/cities.json'
 EVENT_CARDS_JSON_FIXTURES_FILE_PATH = './fixtures/event_cards.json'
 
-week_count = 52
+week_count = 25
 USA_CITIES = []
 CARD_DECK = []
 USA_CITIES_CHANGE = []
@@ -20,9 +20,11 @@ def apply_federally(event_card, city_list_for_country):
         for city in city_list_for_country:
             city.r0 += event_card.r0_difference
             city.start_unemployment_rate
-            city.start_infection_rate
             city.unemployment_rate += event_card.unemployment_rate_difference
+            city.start_infection_rate()
             city.calculate_open_hires()
+            if event_card.event_type == 'mutation':
+                event_card.apply_mortality_rate(city)
             USA_CITIES_CHANGE.append(city)
         return city_list_for_country
 
@@ -54,7 +56,8 @@ def main():
                     USA_CITIES_CHANGE.append(city)
 
     save_cities(USA_CITIES_CHANGE)                  
-    print(USA_CITIES)
+    for city in USA_CITIES:
+        print(city)
 
 if __name__ == '__main__':
     main()

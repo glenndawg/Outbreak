@@ -1,0 +1,8 @@
+[
+    {
+      "name": "Omicron",
+      "long_name": "SARS COVID10 Omicron",
+      "r0": 1.5,
+      "mortality_rate" : 0.8
+    }
+]
