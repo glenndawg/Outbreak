@@ -1,8 +1,50 @@
 [
     {
       "name": "Omicron",
-      "long_name": "SARS COVID10 Omicron",
-      "r0": 1.5,
+      "long_name": "SARS COVID19 Omicron",
+      "r0": 1.9,
       "mortality_rate" : 0.8
+    },
+    {
+      "name": "Alpha",
+      "long_name": "SARS COVID19 Alpha",
+      "r0": 0.9,
+      "mortality_rate" : 0.7
+    },
+    {
+      "name": "Beta",
+      "long_name": "SARS COVID19 Beta",
+      "r0": 0.8,
+      "mortality_rate" : 0.7
+    },
+    {
+      "name": "Delta",
+      "long_name": "SARS COVID19 Delta",
+      "r0": 2.0,
+      "mortality_rate" : 0.7
+    },
+    {
+      "name": "Gamma",
+      "long_name": "SARS COVID10 Gamma",
+      "r0": 1.1,
+      "mortality_rate" : 0.88
+    },
+    {
+      "name": "Iota",
+      "long_name": "SARS COVID19 Iota",
+      "r0": 1.2,
+      "mortality_rate" : 0.75
+    },
+    {
+      "name": "Kappa",
+      "long_name": "SARS COVID10 Kappa",
+      "r0": 1.6,
+      "mortality_rate" : 0.45
+    },
+    {
+      "name": "Zeta",
+      "long_name": "SARS COVID10 Zeta",
+      "r0": 1.3,
+      "mortality_rate" : 0.835
     }
 ]

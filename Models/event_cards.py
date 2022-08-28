@@ -21,9 +21,10 @@ class EventCard:
         
     def __repr__(self):
         return 'Name: {} \n Event type: {} \n Area affected: {} \n r0 difference: {} \
-                \n Unemployment change: {}'.format(self.name, self.event_type,
+                \n Unemployment change: {} \n Affected Cities: {}'.format(self.name, self.event_type,
                                                 self.area_affected, self.r0_difference,
-                                                self.unemployment_rate_difference)
+                                                self.unemployment_rate_difference,
+                                                self.affected_cities)
 
 def load_events(file_path: str, card_deck: list[EventCard]):
     with open(file_path, 'r') as f:

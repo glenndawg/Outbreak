@@ -7,13 +7,13 @@ class City:
         self.name = name
         self.population = population
         self.infected_population = infected_population
-        self.r0 = round(r0)
+        self.r0 = r0
         self.unemployment_rate = round(unemployment_rate)
         self.open_hires = open_hires
         self.deaths = deaths
         
     def start_unemployment_rate(self):
-        self.unemployment_rate = random.randint(7,12)
+        self.unemployment_rate = int(random.randint(7,12))
 #  unemployment_rate: float, open_hires: float
     def calculate_open_hires(self):
         self.open_hires = round(((self.unemployment_rate / 100) * self.population))
