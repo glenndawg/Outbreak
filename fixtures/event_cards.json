@@ -1,4 +1,22 @@
 [
+<<<<<<< HEAD
+    {
+       "name": "Riots with mask burning",
+       "event_type": "public_unrest",
+       "area_affected": "local",
+       "r0_difference": 1,
+       "unemployment_rate_difference": 0.44,
+       "affected_cities": ["Houston"]
+    },
+    {
+       "name": "No gatherings over 100 people",
+       "event_type": "mandate",
+       "area_affected": "federal",
+       "r0_difference": -0.56,
+       "unemployment_rate_difference": 0.60
+    }
+  ]
+=======
    {
       "name": "Riots with mask burning",
       "event_type": "public_unrest",
@@ -192,3 +210,4 @@
       "affected_cities": ["federal"]
    }
 ]
+>>>>>>> fe8b5fa7d707ba341a3b6d5a965f641e08130c93
