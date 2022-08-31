@@ -38,9 +38,9 @@ Event Class:
 Virus Class:
 # write a Virus class with the following:
 
-# Instance variables:
+Instance variables:
 # Name - name of the virus, I.E. COVID-19
-# Long name - name of the virus, I.E. Sars-cov-2
+# Long name - name of the virus, I.E. Sars-cov-2 -->
 # R0 - the average number of people who will contract a contagious disease from one person with that disease
 # See this site for more info: https://www.healthline.com/health/r-nought-reproduction-number
 # mortality rate- https://www.worldometers.info/coronavirus/coronavirus-death-rate/

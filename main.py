@@ -27,12 +27,14 @@ def apply_federally(event_card, city_list_for_country):
             if event_card.event_type == 'mutation':
                 for virus in VIRUSES:
                     if virus.name == event_card.name:
-                        print(virus.name)
                         event_card.apply_mortality_rate(city)
+                        USA_CITIES_CHANGE.append(city)
 
 def save_cities(usa_cities):
     with open('cities.csv', 'w') as data_frame_cities:
         writer = csv.writer(data_frame_cities)
+        # Can I add an index value to count weeks like my pd ????
+        writer.writerow(['name','population','infect_pop','r0','unemp_rate','open_hires'])
         writer.writerows(usa_cities)
 
 def create_df(usa_cities):
@@ -57,12 +59,13 @@ def main():
         
         if random_event.area_affected == 'federal':
             apply_federally(random_event, USA_CITIES)
-                    
+                 
         elif random_event.area_affected == 'local':
             for city in USA_CITIES:
                 if city.name in random_event.affected_cities:
                     random_event.apply_to_affected_citie(city)
                     USA_CITIES_CHANGE.append(city)
+           
 
     create_df(USA_CITIES_CHANGE) 
     save_cities(USA_CITIES_CHANGE)   

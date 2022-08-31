@@ -14,7 +14,7 @@ class City:
         
     def start_unemployment_rate(self):
         self.unemployment_rate = int(random.randint(7,12))
-#  unemployment_rate: float, open_hires: float
+
     def calculate_open_hires(self):
         self.open_hires = round(((self.unemployment_rate / 100) * self.population))
 
