@@ -1,6 +1,7 @@
 from math import trunc
 import random
 import json
+import csv
 class City:
 
     def __init__(self, name: str, population: int, infected_population = 0, r0 = 0.0, unemployment_rate = 0.0, open_hires = 0, deaths = 0):
@@ -31,12 +32,31 @@ class City:
         return iter([self.name, self.population, self.infected_population, self.r0,
                         self.unemployment_rate, self.open_hires, self.deaths])
 
-def load_cities(file_path: str, usa_cities: list[City]):
+    def round_values(self):
+            self.name = self.name
+            self.population = int(self.population)
+            self.infected_population = int(self.infected_population)
+            self.r0 = round(self.r0,2)
+            self.unemployment_rate = round(self.unemployment_rate,2)
+            self.open_hires = int(self.open_hires)
+            self.deaths = int(self.deaths)
+
+def load_cities_from_json(file_path: str, usa_cities: list[City]):
     with open(file_path, 'r') as f:
         loaded_cities_list = json.load(f)
         for city in loaded_cities_list:
             usa_cities.append(City( name=city['name'],
                                     population=city['population'],
                                     r0=city['r0']))
+
+def load_cities_from_csv(file_path: str, usa_cities: list[City]):
+    with open(file_path, 'r') as f:
+        reader = csv.reader(f)
+        loaded_cities_list = list(reader)
+        for city in loaded_cities_list:
+            print(city)
+            usa_cities.append(City( name=city[0],
+                                    population=int(city[1]),
+                                    r0=float(city[2])))
 
         

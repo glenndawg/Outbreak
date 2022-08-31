@@ -1,5 +1,4 @@
 [
-<<<<<<< HEAD
     {
        "name": "Riots with mask burning",
        "event_type": "public_unrest",
@@ -13,10 +12,9 @@
        "event_type": "mandate",
        "area_affected": "federal",
        "r0_difference": -0.56,
-       "unemployment_rate_difference": 0.60
-    }
-  ]
-=======
+       "unemployment_rate_difference": 0.60,
+       "affected_cities": ["federal"]
+    },
    {
       "name": "Riots with mask burning",
       "event_type": "public_unrest",
@@ -210,4 +208,4 @@
       "affected_cities": ["federal"]
    }
 ]
->>>>>>> fe8b5fa7d707ba341a3b6d5a965f641e08130c93
+
