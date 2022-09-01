@@ -1,0 +1,202 @@
+[
+    {
+      "name": "Houston",
+      "population": 2313000,
+      "r0": [1.5],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "San Diego",
+      "population": 1415000,
+      "r0": [2],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "New york",
+      "population": 8804190,
+      "r0": [1.59],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Los Angeles",
+      "population": 3898747,
+      "r0": [0.80],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Chicago",
+      "population": 2746388,
+      "r0": [1.18],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Phoenix",
+      "population": 1608139,
+      "r0": [0.96],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Philadelphia",
+      "population": 1603797,
+      "r0": [0.92],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "San Antonio",
+      "population": 1434625,
+      "r0": [0.92],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Dallas",
+      "population": 1304379,
+      "r0": [0.97],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "San Jose",
+      "population": 1013240,
+      "r0": [0.93],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Austin",
+      "population": 949611,
+      "r0": [0.89],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Jacksonville",
+      "population": 949611,
+      "r0": [1.24],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Fort Worth",
+      "population": 918915,
+      "r0": [0.89],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Columbus",
+      "population": 905748,
+      "r0": [1.03],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "San Francisco",
+      "population": 883305,
+      "r0": [0.91],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Charlotte",
+      "population": 874579,
+      "r0": [0.97],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Indianapolis",
+      "population": 867125,
+      "r0": [0.94],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Seattle",
+      "population": 737015,
+      "r0": [0.91],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Denver",
+      "population": 715522,
+      "r0": [0.88],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    },
+    {
+      "name": "Portland",
+      "population": 652503,
+      "r0": [0.88],
+      "infected_population": [0],
+      "unemployment_rate": [0],
+      "open_hires": [0],
+      "deaths": [0],
+      "week": [0]
+    }
+  ]
