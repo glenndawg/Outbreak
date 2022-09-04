@@ -1,24 +1,36 @@
 from pprint import pprint
+from wsgiref.handlers import format_date_time
 from Models.city import City, load_cities_from_json, load_cities_from_csv
 from Models.event_cards import load_events, EventCard
 from singletons.virus import load_viruses
 from singletons import virus
 import random
 import pandas as pd
+from pandas._libs.tslibs.timestamps import Timestamp
 import csv
 import json
+from datetime import date, datetime
 
 CITIES_JSON_FIXTURES_FILE_PATH = "./fixtures/cities.json"
 CITIES_CSV_FIXTURES_FILE_PATH = "./fixtures/cities.csv"
-EVENT_CARDS_JSON_FIXTURES_FILE_PATH = "./fixtures/event_cards.json"
-VIRUS_JSON_FIXTURES_FILE_PATH = "./fixtures/virus.json"
-CITIES_JSON_DICT_FIXTURES_FILE_PATH = "./fixtures/cities_dict.json"
 
-week_count = 10
+CITIES_JSON_DICT_FIXTURES_FILE_PATH = "./fixtures/cities_dict.json"
+EVENT_CARDS_JSON_FIXTURES_FILE_PATH = "./fixtures/event_cards.json"
+
+VIRUS_JSON_FIXTURES_FILE_PATH = "./fixtures/virus.json"
+
+WEEK_COUNT = 52
 USA_CITIES = []
 CARD_DECK = []
 VIRUSES = []
+COUNT = 0
 
+
+START_DATE = date.today()
+
+TIME_STAMP_INDEX = pd.date_range(START_DATE, periods=WEEK_COUNT, freq="W")
+
+# these are not necessary. Just here for learning how to create csv, and panda datafram
 USA_CITIES_CHANGE = []
 USA_DICT = []
 
@@ -68,7 +80,7 @@ def load_cities_to_dictionary(file_path: str):
         usa_dict = json.load(f)
     return usa_dict
 
-def create_time_series(usa_dict, city_from_usa_cities):
+def create_time_series(usa_dict, city_from_usa_cities, count):
     for city in usa_dict:
         if city['name'] == city_from_usa_cities.name:
             city['infected_population'].append(city_from_usa_cities.infected_population)
@@ -76,9 +88,10 @@ def create_time_series(usa_dict, city_from_usa_cities):
             city['unemployment_rate'].append(city_from_usa_cities.unemployment_rate)
             city['open_hires'].append(city_from_usa_cities.open_hires)
             city['deaths'].append(city_from_usa_cities.deaths)
-            city['week'].append(week_count)
+            city['week'].append(TIME_STAMP_INDEX[count])
 
 def humanize_time_series(usa_dict):
+    format_date = ('%y-%m-%s')
     for city in usa_dict:
         for key, value in city.items():
             if key == 'r0':
@@ -87,6 +100,12 @@ def humanize_time_series(usa_dict):
             if key == 'unemployment_rate':
                 for num in range(len(value)):
                     value[num] = round(value[num], 2)
+            if key == 'week':
+                for num in range(len(value)):
+                    ts = Timestamp(value[num])
+                    value[num] = ts.to_pydatetime()
+                    value[num] = value[num].date()
+                    
     return usa_dict
 
 def get_user_input():
@@ -103,9 +122,11 @@ def get_user_input():
     except ValueError as ve:
         print_error_and_leave_program(ve)
 
-def main():
+def main(COUNT):
+
+  
     get_user_input()
-    
+
     USA_DICT = load_cities_to_dictionary(CITIES_JSON_DICT_FIXTURES_FILE_PATH)
     load_events(EVENT_CARDS_JSON_FIXTURES_FILE_PATH, CARD_DECK)
     load_viruses(VIRUS_JSON_FIXTURES_FILE_PATH, VIRUSES)
@@ -113,21 +134,24 @@ def main():
     for city in USA_CITIES:  # set unemployment rates for each city
         city.start_unemployment_rate()
 
-    for week in range(week_count):  # each week, pick a random event
+    for week in range(WEEK_COUNT): 
+        
+        # each week, pick a random event  
         random_event = random.choice(CARD_DECK) # use this line when doen with the below test
         # random_event = CARD_DECK[1] # this is temporary, to drive a specific event for testing
         if random_event.area_affected == "federal":
             apply_federally(random_event, USA_CITIES)
             for city in USA_CITIES:
                 USA_CITIES_CHANGE.append(city)
-                create_time_series(USA_DICT, city)
+                create_time_series(USA_DICT, city, COUNT)
 
         elif random_event.area_affected == "local":
             for city in USA_CITIES:
                 if city.name in random_event.affected_cities:
                     random_event.apply_to_affected_citie(city)
                     USA_CITIES_CHANGE.append(city)
-                    create_time_series(USA_DICT,city)
+                    create_time_series(USA_DICT,city, COUNT)
+        COUNT += 1 
 
     for city in USA_CITIES_CHANGE:
         city.round_values()
@@ -140,5 +164,9 @@ def main():
     for city in USA_DICT:
         pprint(city)
 
+    
+
+       
+
 if __name__ == "__main__":
-    main()
+    main(COUNT)
