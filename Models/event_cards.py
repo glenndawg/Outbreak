@@ -1,5 +1,6 @@
 import json
-
+from Models.city import City
+from singletons.virus import Virus
 
 class EventCard:
     def __init__(
@@ -18,14 +19,14 @@ class EventCard:
         self.unemployment_rate_difference = unemployment_rate_difference
         self.affected_cities = affected_cities
 
-    def apply_to_affected_citie(self, City):
-        City.r0 += self.r0_difference
-        City.unemployment_rate += self.unemployment_rate_difference
-        City.start_infection_rate()
+    def apply_to_affected_citie(self, city: City):
+        city.r0 += self.r0_difference
+        city.unemployment_rate += self.unemployment_rate_difference
+        city.start_infection_rate()
         
-
-    def apply_mortality_rate(self, City):
-        City.deaths = round(0.008 * City.infected_population)
+    def apply_mortality_rate_and_r0(self, city: City, virus: Virus):
+        city.deaths = virus.mortality_rate * city.infected_population
+        city.r0 = virus.r0
 
     def __repr__(self):
         return "Name: {} \n Event type: {} \n Area affected: {} \n r0 difference: {} \
@@ -37,7 +38,6 @@ class EventCard:
             self.unemployment_rate_difference,
             self.affected_cities,
         )
-
 
 def load_events(file_path: str, card_deck: list[EventCard]):
     with open(file_path, "r") as f:

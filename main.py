@@ -1,8 +1,4 @@
-from encodings import utf_8
 from pprint import pprint
-# from token import STAR
-# from wsgiref.handlers import format_date_time
-# from xml.sax.xmlreader import AttributesImpl
 from Models.city import City, load_cities_from_json, load_cities_from_csv
 from Models.event_cards import load_events, EventCard
 from singletons.virus import load_viruses
@@ -17,30 +13,61 @@ from plot import line_plot
 
 CITIES_JSON_FIXTURES_FILE_PATH = "./fixtures/cities.json"
 CITIES_CSV_FIXTURES_FILE_PATH = "./fixtures/cities.csv"
-
 CITIES_JSON_DICT_FIXTURES_FILE_PATH = "./fixtures/cities_dict.json"
-EVENT_CARDS_JSON_FIXTURES_FILE_PATH = "./fixtures/event_cards.json"
 
+EVENT_CARDS_JSON_FIXTURES_FILE_PATH = "./fixtures/event_cards.json"
 VIRUS_JSON_FIXTURES_FILE_PATH = "./fixtures/virus.json"
 
-WEEK_COUNT = 25
+WEEK_COUNT = 27
+
 USA_CITIES = []
-USA_CITIES_DICT = []
 CARD_DECK = []
 VIRUSES = []
-COUNT = 0
 
 START_DATE = date.today()
 TIME_STAMP_INDEX = pd.date_range(START_DATE, periods=WEEK_COUNT, freq="W")
+USA_CITIES_DICT = []
 
 # these are not necessary. Just here for learning how to create csv, and panda datafram
 USA_CITIES_CHANGE = []
 
-def print_error_and_leave_program(error_message: str) -> None:
-    print(error_message)
-    exit(2)
+def get_user_input_for_import_type():
 
-def apply_federally(event_card, city_list_for_country):
+    
+    # file_load_format = "JSON"
+    while True: # 
+        try:
+            file_load_format = input('Load cities from JSON, or CSV ? :')
+            if file_load_format.lower() == "json":
+                load_cities_from_json(CITIES_JSON_FIXTURES_FILE_PATH, USA_CITIES)
+            elif file_load_format.lower() == "csv":
+                load_cities_from_csv(CITIES_CSV_FIXTURES_FILE_PATH, USA_CITIES)
+            else:
+                raise ValueError("Must choose one of (JSON or CSV) ")
+            break
+        except ValueError:
+            print('Please eneter JSON or CSV')
+
+def load_cities_to_dictionary(file_path: str) -> dict:
+    with open(file_path, "r") as f:
+        usa_cities_dict = json.load(f)
+    return usa_cities_dict
+
+def initialize_time_series_weeks(usa_cities_dict: list[dict[list]]):
+    for city in usa_cities_dict:
+        city['week'].append(START_DATE)
+
+def build_time_series_weeks(usa_cities_dict: list[dict[list]], city_from_usa_cities: City, week: int):
+    for city in usa_cities_dict:
+        if city['name'] == city_from_usa_cities.name:
+            city['infected_population'].append(city_from_usa_cities.infected_population)
+            city['r0'].append(city_from_usa_cities.r0)
+            city['unemployment_rate'].append(city_from_usa_cities.unemployment_rate)
+            city['open_hires'].append(city_from_usa_cities.open_hires)
+            city['deaths'].append(city_from_usa_cities.deaths)
+            city['week'].append(TIME_STAMP_INDEX[week])
+
+def apply_federally(event_card: EventCard, city_list_for_country: City):
     for city in city_list_for_country:
         city.r0 += event_card.r0_difference
         city.unemployment_rate += event_card.unemployment_rate_difference
@@ -49,9 +76,27 @@ def apply_federally(event_card, city_list_for_country):
         if event_card.event_type == "mutation":
             for virus in VIRUSES:
                 if virus.name == event_card.name:
-                    event_card.apply_mortality_rate(city)
+                    event_card.apply_mortality_rate_and_r0(city, virus)
 
-def save_cities_to_csv(usa_cities_dict):
+def humanize_time_series(usa_cities_dict: list[dict[list]]):
+    format_date = ('%y-%m-%s')
+    for city in usa_cities_dict:
+        for key, value in city.items():
+            if key == 'r0':
+                for num in range(len(value)):
+                    value[num] = round(value[num], 2)
+            if key == 'unemployment_rate':
+                for num in range(len(value)):
+                    value[num] = round(value[num], 2)
+            if key == 'week':
+                # value[0] = START_DATE
+                for num in range(0,len(value)):
+                    ts = Timestamp(value[num])
+                    value[num] = ts.to_pydatetime()
+                    value[num] = value[num].date()                  
+    return usa_cities_dict
+
+def save_cities_to_csv(usa_cities_dict: list[dict[list]]): # this is not working yet, mostly notes here
     with open("cities.csv", "w", newline='') as data_frame_cities:
         headers = usa_cities_dict[0].keys()
         writer = csv.writer(data_frame_cities)
@@ -76,7 +121,7 @@ def save_cities_to_csv(usa_cities_dict):
                 # writer.writerow(str.join(',',+ [value[i] for i in value]))
                  # +[str(i) for i in value])+'\n')
 
-def create_data_frame(usa_cities):
+def create_data_frame(usa_cities: City): # does not represent the tie series - only final values
     pd.set_option(
         "display.max_rows", None, "display.max_columns", None, "display.width", 200
     )
@@ -93,50 +138,13 @@ def create_data_frame(usa_cities):
     df.columns = headers
     df.to_csv("cities_pd.csv", header=headers, sep=",")
 
-def load_cities_to_dictionary(file_path: str):
-    with open(file_path, "r") as f:
-        usa_cities_dict = json.load(f)
-    return usa_cities_dict
-
-def create_time_series(usa_cities_dict, city_from_usa_cities, week):
-    for city in usa_cities_dict:
-        if city['name'] == city_from_usa_cities.name:
-            city['infected_population'].append(city_from_usa_cities.infected_population)
-            city['r0'].append(city_from_usa_cities.r0)
-            city['unemployment_rate'].append(city_from_usa_cities.unemployment_rate)
-            city['open_hires'].append(city_from_usa_cities.open_hires)
-            city['deaths'].append(city_from_usa_cities.deaths)
-            city['week'].append(TIME_STAMP_INDEX[week])
-
-def initialize_time_series_weeks(usa_cities_dict):
-    for city in usa_cities_dict:
-        city['week'].append(START_DATE)
-
-def humanize_time_series(usa_cities_dict):
-    format_date = ('%y-%m-%s')
-    for city in usa_cities_dict:
-        for key, value in city.items():
-            if key == 'r0':
-                for num in range(len(value)):
-                    value[num] = round(value[num], 2)
-            if key == 'unemployment_rate':
-                for num in range(len(value)):
-                    value[num] = round(value[num], 2)
-            if key == 'week':
-                # value[0] = START_DATE
-                for num in range(0,len(value)):
-                    ts = Timestamp(value[num])
-                    value[num] = ts.to_pydatetime()
-                    value[num] = value[num].date()
-                          
-    return usa_cities_dict
-
-def get_data_to_plot(usa_cities_dict):
+def get_data_to_plot(usa_cities_dict: list[dict[list]]): # ask for user input, then send data to plot
 
     city = None
     category = None
     
     # this could be created like the city_name_dict in case more attributes are added in the future
+    # fix the attributes input/out put here. Too many magic strings, and still clunky
     attributes_names ={1:'Infected Population',2:'r0',3:'Unemployment Rate',4:'Open Hires',5:'deaths'}
 
     city_names = []
@@ -201,19 +209,6 @@ def get_data_to_plot(usa_cities_dict):
         
     line_plot(weeks, attributes, city, category)
 
-def get_user_input_for_import_type():
-    # file_load_format = input('Load cities from JSON, or CSV ? :')
-    file_load_format = "JSON"
-
-    try:
-        if file_load_format.lower() == "json":
-            load_cities_from_json(CITIES_JSON_FIXTURES_FILE_PATH, USA_CITIES)
-        elif file_load_format.lower() == "csv":
-            load_cities_from_csv(CITIES_CSV_FIXTURES_FILE_PATH, USA_CITIES)
-        else:
-            raise ValueError("Must choose one of (JSON or csv) ")
-    except ValueError as ve:
-        print_error_and_leave_program(ve)
 
 def main():
 
@@ -237,23 +232,23 @@ def main():
             apply_federally(random_event, USA_CITIES)
             for city in USA_CITIES:
                 USA_CITIES_CHANGE.append(city) # this will be delete
-                create_time_series(USA_CITIES_DICT, city, week)
+                build_time_series_weeks(USA_CITIES_DICT, city, week)
 
         elif random_event.area_affected == "local":
             for city in USA_CITIES:
                 if city.name in random_event.affected_cities:
                     random_event.apply_to_affected_citie(city)
                     USA_CITIES_CHANGE.append(city) # this will be delete
-                    create_time_series(USA_CITIES_DICT,city, week)
+                    build_time_series_weeks(USA_CITIES_DICT,city, week)
 
     for city in USA_CITIES_CHANGE: 
         city.round_values()
     
     humanize_time_series(USA_CITIES_DICT)
     create_data_frame(USA_CITIES_CHANGE)
-    # save_cities_to_csv(USA_CITIES_DICT)
+    # save_cities_to_csv(USA_CITIES_DICT) # this is still under construction
 
-    # for city in USA_CITIES_DICT:
+    # for city in USA_CITIES_DICT: # this is here for output testing when needed
     #     pprint(city)
 
     get_data_to_plot(USA_CITIES_DICT)
